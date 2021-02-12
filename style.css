@@ -7,6 +7,6 @@ body {
 #banner {
     display: flex;
     border-style: 5px solid black;
-    height: 20%;
+    height: 40%;
     width: 100%;
 }
