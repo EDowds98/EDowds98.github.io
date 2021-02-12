@@ -6,5 +6,5 @@ body {
 
 #banner {
     display: flexbox;
-    border: solid;
+    border-style: solid;
 }
