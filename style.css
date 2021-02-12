@@ -1,4 +1,4 @@
-* {
+body {
     font-family: 'Open Sans', sans-serif;
     background: rgb(74,115,163);
     background: linear-gradient(90deg, rgba(74,115,163,1) 0%, rgba(204,174,92,1) 35%, rgba(247,248,248,1) 100%);
