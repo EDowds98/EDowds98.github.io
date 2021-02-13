@@ -1,4 +1,5 @@
 body {
+    overflow: hidden;
     font-family: 'Open Sans', sans-serif;
     background: #2A251E;
     display: flex;
