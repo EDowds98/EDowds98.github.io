@@ -1,46 +1,50 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+
 body {
-    overflow: hidden;
-    font-family: 'Open Sans', sans-serif;
-    background: #2A251E;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: center;
-    align-items: center baseline;
-    margin: auto;
-    border-radius: 1%;
-    width: 100;
+  font-family: 'Hind', sans-serif;
+  line-height: 2;
+  display: flex;
+  flex-flow: column wrap;
+  background-color: #39393A;
+  justify-content: center;
+  align-items: baseline;
+  align-content: center;
+  text-align: center;
+  width: 100%;
 }
-
 #banner {
-    margin:auto;
-    display: flex;
-    border-bottom-style: solid;
-    border-width: 2px;
-    border-color: #2A251E;
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    background: #CC4134
-}
-
-div {
-    padding: 2em 2em 2em 2em 
-}
-#aboutMe {
-    color: #F6F6F5;
+  background-color: #85FFC7;
+  color: #39393A;
+  margin: auto;
+  flex-grow: 1;
+  width: 100%;
 }
 
 h1 {
-    text-align: center justify;
-    justify-content: center;
-    font-size: 3em;
-    margin: auto;
+  justify-items: center;
+}
+#aboutMe {
+  background-color: #39393A;
+  color: #e6e6e6;
+  width: 100%;
+  font-size: 18px;
 }
 
 #workExp {
-    overflow: auto;
-    background-color: #F6F6F5;
-    color:#2A251E;
+  background-color: #E6E6E6;
+  color:#39393A;
+  width: 100%;
+}
+
+footer {
+  float: bottom;
+  background-color: #FF8552;
+  color:#E6E6E6;
+  width: 100%;
 }
