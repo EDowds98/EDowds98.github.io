@@ -1,15 +1,17 @@
 body {
-   /* font-family: 'Open Sans', sans-serif; */
-    background: rgb(74,115,163);
-    background: linear-gradient(90deg, rgba(74,115,163,1) 0%, rgba(204,174,92,1) 35%, rgba(247,248,248,1) 100%);
+    font-family: 'Open Sans', sans-serif;
+    background: #2A251E;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
     align-items: center baseline;
+    margin: auto;
+    border-radius: 5px;
 }
 
-div {
+#banner {
+    border-radius: 5px;
     display: flex;
     border-bottom-style: solid;
     border-width: 2px;
@@ -19,9 +21,17 @@ div {
     text-align: center;
     align-items: center baseline;
     justify-content: center;
+    background: #CC4134
+}
+
+#aboutMe {
+    padding: 2em 2em 2em 2em;
+    color: #F6F6F5;
 }
 
 h1 {
     text-align: center justify;
     justify-content: center;
+    font-size: 3em;
+    margin: auto;
 }
