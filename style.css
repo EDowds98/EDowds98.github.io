@@ -8,14 +8,16 @@ body {
     align-items: center baseline;
     margin: auto;
     border-radius: 1%;
+    width: 100;
 }
 
 #banner {
-    border-radius: 1%;
+    margin:auto;
+    border-radius: 0% 0% 5% 5%;
     display: flex;
     border-bottom-style: solid;
     border-width: 2%;
-    border-color: black;
+    border-color: #2A251E;
     height: 100px;
     width: 100%;
     text-align: center;
@@ -24,8 +26,10 @@ body {
     background: #CC4134
 }
 
+div {
+    padding: 2em 2em 2em 2em 
+}
 #aboutMe {
-    padding: 2em 2em 2em 2em;
     color: #F6F6F5;
 }
 
@@ -34,4 +38,9 @@ h1 {
     justify-content: center;
     font-size: 3em;
     margin: auto;
+}
+
+#workExp {
+    background: #F6F6F5;
+    color:#2A251E;
 }
