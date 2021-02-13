@@ -14,15 +14,13 @@ body {
 
 #banner {
     margin:auto;
-    border-radius: 0% 0% 5% 5%;
     display: flex;
     border-bottom-style: solid;
-    border-width: 2%;
+    border-width: 2px;
     border-color: #2A251E;
     height: 100px;
     width: 100%;
     text-align: center;
-    align-items: center baseline;
     justify-content: center;
     background: #CC4134
 }
