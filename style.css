@@ -17,6 +17,7 @@ body {
   align-content: center;
   text-align: center;
   width: 100%;
+  font-size: 18px;
 }
 #banner {
   background-color: #85FFC7;
@@ -33,7 +34,6 @@ h1 {
   background-color: #39393A;
   color: #e6e6e6;
   width: 100%;
-  font-size: 18px;
 }
 
 #workExp {
@@ -47,4 +47,16 @@ footer {
   background-color: #FF8552;
   color:#E6E6E6;
   width: 100%;
+}
+
+a:link {
+  color:#E6E6E6;
+}
+
+a:visited {
+  color: #297373;
+}
+
+a:hover {
+  color: #85ffc7;
 }
