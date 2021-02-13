@@ -41,6 +41,7 @@ h1 {
 }
 
 #workExp {
+    overflow: auto;
     background-color: #F6F6F5;
     color:#2A251E;
 }
