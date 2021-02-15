@@ -60,3 +60,9 @@ a:visited {
 a:hover {
   color: #85ffc7;
 }
+
+ul {
+  justify-content: flex-start;
+  text-align: start;
+  padding: 5px;
+}
